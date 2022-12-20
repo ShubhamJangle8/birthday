@@ -15,13 +15,13 @@ body{
 .box{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100%;
     width: 100%;
     /* flex-direction: column */
 }
 
-.card{
+.container1{
     width: 380px;
     height: 400px;
     /* position: absolute;
@@ -31,7 +31,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.block{
+.container2{
     /* position: absolute;
     top:200px;
     right: 600px; */
@@ -54,6 +54,17 @@ body{
     font-weight: bold;
     margin-top: 20px;
 }
+
+.shiv-image{
+    display: flex;
+    justify-content:center
+}
+
+.images-iskcon{
+    display: flex;
+    justify-content: space-between;
+}
+
 .frames{
     width: 30rem;
     height: 10rem;
