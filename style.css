@@ -1,46 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Bodoni Moda', serif;
 }
-body{
+
+body {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bday.gif);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bday.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.box{
+.box {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
     width: 100%;
-    /* flex-direction: column */
 }
 
-.container1{
+.container1 {
     width: 380px;
     height: 400px;
-    /* position: absolute;
-    top: 100px;
-    left: 230px; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container2{
-    /* position: absolute;
-    top:200px;
-    right: 600px; */
-    /* width: 280px;
-    height: 360px; */
+
+.container2 {
     display: flex;
     flex-direction: column;
 }
-.inside{
+
+.inside {
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -49,62 +44,68 @@ body{
     background-color: rgb(255, 244, 79);
 }
 
-.inside h3{
+.inside h3 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.shiv-image{
+.shiv-image {
     display: flex;
-    justify-content:center
+    justify-content: center
 }
 
-.images-iskcon{
+.images-iskcon {
     display: flex;
     justify-content: space-between;
 }
 
-.frames{
+.frames {
     width: 30rem;
-    height: 10rem;
+    height: 13rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0 0.8rem;
-    /* transform: rotateY(-230deg) rotateX(20deg);
-    position: absolute; */
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
-.main-image{
+.main-image {
+    height: 30vh;
     border-radius: 50%;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-.frames img{
+.god-image {
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.frames img {
     width: 125px;
-    height: 125px;
+    height: 150px;
     border-radius: 50%;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
-.frames p{
-   font-size: 20px;
-   font-weight: bold;
-   /* transform: rotateY(180deg); */
+
+.frames p {
+    width: 300px;
+    font-size: 22px;
+    font-weight: bold;
 }
-.frames:nth-child(1)
-{
+
+.frames:nth-child(1) {
     background-color: coral;
     margin: 1.5rem;
     border-radius: 5%;
 }
-.frames:nth-child(2){
+
+.frames:nth-child(2) {
     background-color: goldenrod;
     margin: 1.5rem;
     border-radius: 5%;
 }
-.frames:nth-child(3)
-{
+
+.frames:nth-child(3) {
     background-color: burlywood;
     margin: 1.5rem;
     border-radius: 5%;
